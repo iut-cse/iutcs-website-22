@@ -10,7 +10,9 @@ const ContactSection = () => {
     <section className="bg-navyBlue relative lg:px-36 py-28">
       <div className="bg-overlay bg-cover bg-center bg-no-repeat absolute top-0 left-0 right-0 bottom-0 overflow-hidden" />
       {/* Form & Map */}
-      <h1 className="text-4xl md:text-5xl text-center mb-20">Get In Touch</h1>
+      <h1 className="text-4xl md:text-5xl text-center mb-20 font-medium">
+        Get In Touch
+      </h1>
       <div className="container p-8 md:p-12 mx-auto w-4/5 md:w-full md:flex sm:flex-nowrap flex-wrap flex-row-reverse gap-10 bg-darkBlue rounded-3xl">
         <div className="lg:w-2/3 md:w-1/3 bg-gray-900 rounded-lg overflow-hidden hidden md:flex items-end justify-start relative h-[60vh]">
           <iframe

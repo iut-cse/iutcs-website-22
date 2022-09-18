@@ -1,8 +1,8 @@
 const IntroSection = () => {
   return (
     <section className="bg-darkBlue mx-auto md:px-12 py-24 w-full rounded-t-[30px] relative">
-      <div className="bg-circleBg bg-cover bg-center bg-no-repeat absolute top-10 left-10 right-0 bottom-0 filter brightness-200" />
-      <h1 className="text-4xl md:text-5xl text-center mb-12 md:mb-20">
+      <div className="bg-circleBg bg-cover bg-center bg-no-repeat absolute top-10 left-0 right-0 bottom-0 filter brightness-200" />
+      <h1 className="text-4xl md:text-5xl text-center mb-12 md:mb-20 font-medium">
         Who Are We
       </h1>
       <div className="flex md:flex-row flex-col w-full items-center justify-center">

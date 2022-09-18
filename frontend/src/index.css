@@ -49,9 +49,23 @@
   -webkit-backdrop-filter: blur(6.5px) !important;
   border-radius: 10px;
 }
+.cardBg {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(39, 39, 47, 0.5);
+  box-shadow: 0 4px 28px 0 rgba(30, 35, 108, 0.37);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
 
 .bgBlur {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  /* border: 1px solid rgba(255, 255, 255, 0.15); */
+}
+
+@media screen and (max-width: 640px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
 }

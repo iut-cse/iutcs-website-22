@@ -5,6 +5,7 @@ import {
   IntroSection,
   GallerySection,
   ContactSection,
+  EventsSection,
 } from "../components/Home";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <IntroSection />
+      <EventsSection />
       <GallerySection />
       <ContactSection />
       <Footer />
