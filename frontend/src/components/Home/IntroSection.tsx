@@ -19,7 +19,7 @@ const IntroSection = () => {
               delay: 0.8,
               duration: 1,
             }}
-            className="mb-8 leading-relaxed text-white/80 md:w-2/3 w-5/6 text-base md:text-lg font-medium"
+            className="mb-8 leading-relaxed text-white/80 md:w-2/3 w-5/6 text-base md:text-lg font-medium cardBg"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
             ducimus saepe eveniet, voluptas alias quam atque quia, accusamus

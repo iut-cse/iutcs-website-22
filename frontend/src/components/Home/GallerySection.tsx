@@ -8,9 +8,21 @@ const GallerySection = () => {
       <section className="bg-darkBlue body-font relative">
         <div className="container px-12 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-8 md:mb-16">
-            <h1 className="text-4xl md:text-5xl text-center mb-4 font-medium">
+            <h1 className="md:text-5xl text-center mb-4 font-medium hidden md:block">
               <AnimatedLetters text={"Around The Corner"} />
             </h1>
+            <motion.h1
+              viewport={{ once: true }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{
+                type: "linear",
+                duration: 1,
+              }}
+              className="text-4xl text-center mb-4 font-medium block md:hidden leading-relaxed"
+            >
+              Around The World
+            </motion.h1>
           </div>
           <div className="flex flex-wrap justify-center items-center gap-12 w-full">
             {galleryContents.map((item, index) => (
