@@ -1,13 +1,13 @@
 import { Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
+import { AnimatePresence, motion } from "framer-motion";
+import { useState } from "react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import AnimatedLetters from "../../animation/AnimatedLetters";
-import { useState } from "react";
 import { eventsContents } from "../../data/eventsContents";
-import { motion, useMotionValue, AnimatePresence } from "framer-motion";
 
 interface Props {
   slideNo: number;
@@ -43,7 +43,6 @@ const EventInfoComponent = ({ slideNo }: Props) => {
 };
 
 const EventsSection = () => {
-  const opacity = useMotionValue(0);
   const [slideNo, setSlideNo] = useState(0);
 
   return (

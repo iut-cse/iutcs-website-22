@@ -2,16 +2,17 @@ import { motion } from "framer-motion";
 
 interface Props {
   text: string;
+  delay?: number;
 }
 
-const AnimatedLetters = ({ text }: Props) => {
+const AnimatedLetters = ({ text, delay = 0.06 }: Props) => {
   const letters = Array.from(text);
   //   variants
   const container = {
     hidden: { opacity: 0 },
     visible: (i = 1) => ({
       opacity: 1,
-      transition: { staggerChildren: 0.05, delayChildren: 0.3 * i },
+      transition: { staggerChildren: delay, delayChildren: 0.3 * i },
     }),
   };
   const child = {
