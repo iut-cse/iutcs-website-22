@@ -4,16 +4,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import AnimatedLetters from "../../animation/AnimatedLetters";
 
 const EventsSection = () => {
   return (
     <div className="bg-darkBlue px-10 lg:px-44 py-16 md:py-28">
       <h1 className="text-4xl md:text-5xl text-center mb-12 md:mb-20 font-medium">
-        What's Going On
+        <AnimatedLetters text={"What's Going On"} />
       </h1>
       <div className="">
         <Swiper
           slidesPerView={1}
+          spaceBetween={50}
           navigation={true}
           pagination={{
             type: "bullets",
