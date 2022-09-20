@@ -7,7 +7,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/committee" element={<ExecutiveCommittee />} />
       <Route path="/sponsors" element={<Sponsors />} />
-      <Route path="/gallery" element={<Activities />} />
+      <Route path="/activity" element={<Activities />} />
     </Routes>
   );
 }

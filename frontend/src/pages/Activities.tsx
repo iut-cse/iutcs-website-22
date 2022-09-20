@@ -3,10 +3,11 @@ import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../animation/varients";
 import { events, sessions } from "../data/activities";
 import ActivityItem from "../components/Activites/ActivityItem";
+import Layout from "../components/common/Layout";
 
 const Activities = () => {
   return (
-    <>
+    <Layout>
       <div className="py-12">
         <h1 className="text-[28px] md:text-4xl text-center mb-12 md:mb-12 font-medium">
           <AnimatedLetters text={"Our Activities"} />
@@ -52,7 +53,7 @@ const Activities = () => {
           </div>
         </div>
       </div>
-    </>
+    </Layout>
   );
 };
 
