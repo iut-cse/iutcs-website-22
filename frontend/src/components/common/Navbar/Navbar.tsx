@@ -2,9 +2,17 @@ import logo from "../../../assets/Logo.svg";
 import { useState, useEffect } from "react";
 import NavMobile from "./NavMobile";
 import { links } from "../../../data/links";
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   const [mobileNav, setMobileNav] = useState<Boolean>(false);
   const [isScrolled, setIsScrolled] = useState<Boolean>(false);
+
+  let activeStyle = {
+    textDecoration: "underline",
+  };
+
+  let activeClassName = "underline";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -51,12 +59,15 @@ const Navbar = () => {
             <ul className="flex items-center text-xs lg:text-sm gap-8">
               {links.map((link, index) => (
                 <li key={index}>
-                  <a
-                    className="text-white/90 transition hover:text-white"
-                    href={`${link.path}`}
+                  <NavLink
+                    className={({ isActive }) =>
+                      isActive ? "active" : "inactive"
+                    }
+                    to={`${link.path}`}
+                    end
                   >
                     {link.title}
-                  </a>
+                  </NavLink>
                 </li>
               ))}
             </ul>
