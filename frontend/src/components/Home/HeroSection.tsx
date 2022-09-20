@@ -1,8 +1,10 @@
+import { motion } from "framer-motion";
 import AnimatedLetters from "../../animation/AnimatedLetters";
 import AnimatedTextWord from "../../animation/AnimatedText";
-import neonImg from "../../assets/neon.svg";
 import laptopImg from "../../assets/Laptop.svg";
-import { motion } from "framer-motion";
+import neonImg from "../../assets/neon.svg";
+import code from "../../assets/codeIcon.png";
+import curlyBrace from "../../assets/curlyBrace.png";
 
 const HeroSection = () => {
   return (
@@ -14,14 +16,14 @@ const HeroSection = () => {
             <AnimatedLetters text={"IUTCS"} delay={0.12} />
           </h1>
           <h3
-            className="text-[2px] md:text-[32px] lg:text-[41px] font-medium -mt-2 md:-mt-8"
+            className="text-[25px] md:text-[32px] lg:text-[41px] font-medium -mt-2 md:-mt-8"
             style={{ wordSpacing: "3px" }}
           >
             <AnimatedTextWord text={"IUT Computer Society"} />
           </h3>
         </div>
-        <div className="w-1/2 hidden md:flex items-center justify-end bg-red">
-          <div className=" mt-6 mr-12 relative bg-green">
+        <div className="w-1/2 hidden md:flex items-center justify-end relative">
+          <div className=" mt-6 mr-12 relative">
             <motion.img
               initial={{ opacity: 0, y: 0, scale: 0 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -45,6 +47,28 @@ const HeroSection = () => {
               src={neonImg}
               alt="neonBorder"
               className="absolute z-10 top-6 left-3 lg:top-8 lg:left-4 w-[200px] h-[375px] lg:w-[300px] lg:h-[560px]"
+            />
+            <motion.img
+              animate={{ opacity: [0, 1], scale: [0, 1.4, 1] }}
+              transition={{
+                type: "spring",
+                delay: 2.1,
+                duration: 1,
+              }}
+              src={code}
+              alt="neonBorder"
+              className="absolute top-16 left-0 h-14 w-14 iconBg p-2"
+            />
+            <motion.img
+              animate={{ opacity: [0, 1], scale: [0, 1.2, 1] }}
+              transition={{
+                type: "spring",
+                delay: 2.5,
+                duration: 1,
+              }}
+              src={curlyBrace}
+              alt="neonBorder"
+              className="absolute -top-10 left-64 h-14 w-14 iconBg p-2"
             />
           </div>
         </div>

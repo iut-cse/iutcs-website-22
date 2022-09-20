@@ -5,6 +5,8 @@ import {
   MdOutlineMailOutline,
 } from "react-icons/md";
 import AnimatedLetters from "../../animation/AnimatedLetters";
+import { motion } from "framer-motion";
+import { fadeIn, staggerContainer } from "../../animation/varients";
 
 const ContactSection = () => {
   return (
@@ -16,7 +18,10 @@ const ContactSection = () => {
       </h1>
       <div className="container p-8 md:p-12 mx-auto w-4/5 md:w-full md:flex sm:flex-nowrap flex-wrap flex-row-reverse gap-10 bg-darkBlue rounded-3xl">
         <div className="lg:w-2/3 md:w-1/3 bg-gray-900 rounded-lg overflow-hidden hidden md:flex items-end justify-start relative h-[60vh]">
-          <iframe
+          <motion.iframe
+            viewport={{ once: true, margin: "0px 0px -100px 0px" }}
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
             width="100%"
             height="100%"
             title="map"
@@ -29,8 +34,14 @@ const ContactSection = () => {
             style={{ filter: "grayscale(1) contrast(1.2) opacity(0.16)" }}
           />
         </div>
-        <div className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 gap-3">
-          <div className="relative mb-4">
+        <motion.div
+          viewport={{ once: true, margin: "0px 0px -100px 0px" }}
+          variants={staggerContainer}
+          initial="initial"
+          whileInView="animate"
+          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 gap-3"
+        >
+          <motion.div variants={fadeIn()} className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
               Email
             </label>
@@ -40,8 +51,8 @@ const ContactSection = () => {
               name="email"
               className="w-full bg-darkBlueLight rounded-xl border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-sm outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
-          </div>
-          <div className="relative mb-4">
+          </motion.div>
+          <motion.div variants={fadeIn()} className="relative mb-4">
             <label
               htmlFor="message"
               className="leading-7 text-sm text-gray-400"
@@ -54,18 +65,30 @@ const ContactSection = () => {
               className="w-full bg-darkBlueLight rounded-xl border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-sm outline-none text-gray-100 py-2 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               defaultValue={""}
             />
-          </div>
-          <button className="text-white bg-lightBlue border-0 py-3.5 px-6 focus:outline-none rounded-lg text-lg mb-8 md:mb-0">
+          </motion.div>
+          <motion.button
+            variants={fadeIn()}
+            className="text-white bg-lightBlue border-0 py-3.5 px-6 focus:outline-none rounded-lg text-lg mb-8 md:mb-0"
+          >
             <div className="flex justify-between text-sm">
               <span>Send Message</span>
               <IoChevronForwardOutline size={18} />
             </div>
-          </button>
-        </div>
+          </motion.button>
+        </motion.div>
       </div>
       {/* Contact Info */}
-      <div className="flex flex-wrap my-12 mx-8 lg:mx-0">
-        <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
+      <motion.div
+        viewport={{ once: true, margin: "0px 0px -100px 0px" }}
+        variants={staggerContainer}
+        initial="initial"
+        whileInView="animate"
+        className="flex flex-wrap my-12 mx-8 lg:mx-0"
+      >
+        <motion.div
+          variants={fadeIn("up", 0.3)}
+          className="p-4 lg:w-1/3 sm:w-1/2 w-full"
+        >
           <div className="flex border-2 rounded-xl border-gray-800 p-6 gap-6">
             <div className="h-14 w-14 flex items-center justify-center rounded-full bg-lightBlue text-white flex-shrink-0">
               <MdOutlineMailOutline size={25} />
@@ -75,8 +98,11 @@ const ContactSection = () => {
               <p className="leading-relaxed text-sm">support@iut-dhaka.edu</p>
             </div>
           </div>
-        </div>
-        <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
+        </motion.div>
+        <motion.div
+          variants={fadeIn("up", 0.3)}
+          className="p-4 lg:w-1/3 sm:w-1/2 w-full"
+        >
           <div className="flex border-2 rounded-xl border-gray-800 p-6 gap-6">
             <div className="h-14 w-14 flex items-center justify-center rounded-full bg-lightBlue text-white flex-shrink-0">
               <MdOutlineCall size={25} />
@@ -86,8 +112,11 @@ const ContactSection = () => {
               <p className="leading-relaxed text-sm">(+880) 12345678</p>
             </div>
           </div>
-        </div>
-        <div className="p-4 lg:w-1/3 sm:w-1/2 w-full">
+        </motion.div>
+        <motion.div
+          variants={fadeIn("up", 0.3)}
+          className="p-4 lg:w-1/3 sm:w-1/2 w-full"
+        >
           <div className="flex border-2 rounded-xl border-gray-800 p-6 gap-6">
             <div className="h-14 w-14 flex items-center justify-center rounded-full bg-lightBlue text-white flex-shrink-0">
               <MdOutlineLocationOn size={25} />
@@ -97,8 +126,8 @@ const ContactSection = () => {
               <p className="leading-relaxed text-sm">Board Bazar, Gazipur</p>
             </div>
           </div>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 };

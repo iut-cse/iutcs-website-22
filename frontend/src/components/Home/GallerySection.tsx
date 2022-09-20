@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import AnimatedLetters from "../../animation/AnimatedLetters";
 import { galleryContents } from "../../data/galleryContent";
-import about from "../../assets/about.svg";
 
 const GallerySection = () => {
   return (
@@ -39,12 +38,8 @@ const GallerySection = () => {
                 className="flex flex-col p-3 md:w-2/5 lg:w-1/4 w-full rounded-xl shadow-sm cardBg"
                 key={index}
               >
-                <div
-                  // alt={item.title}
-                  // src="https://dummyimage.com/600x400"
-                  className="bg-lightBlue w-full h-56 rounded-md flex items-center justify-center"
-                >
-                  <img src={about} alt="" className="object-cover" />
+                <div className="bg-lightBlue w-full h-56 rounded-md flex items-center justify-center">
+                  <img src={item.icon} alt="" className="object-cover" />
                 </div>
 
                 <div className="mt-4 mb-1">
