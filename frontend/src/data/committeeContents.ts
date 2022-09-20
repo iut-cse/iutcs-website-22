@@ -20,52 +20,62 @@ export const teacherBodyContents = [
     name: "PROF. DR. MOHAMMAD RAFIQUL ISLAM",
     position: "CHIEF PATRON",
     picture: chiefpatron,
+    designation: "VICE CHANCELLOR,IUT",
   },
   {
     name: "DR OMAR JAH",
     position: "PATRON",
     picture: patron,
+    designation: "PRO VICE CHANCELLOR,IUT",
   },
   {
     name: "PROF DR. ABU RAIHAN MOSTOFA KAMAL",
     position: "CHAIRMAN",
     picture: chairman,
+    designation: "HEAD, DEPARTMENT OF CSE,IUT",
   },
   {
     name: "DR. HASAN MAHMUD",
     position: "MODERATOR",
     picture: moderator,
+    designation: "ASSISTANT PROFESSOR,CSE,IUT",
   },
   {
     name: "SABBIR AHMED",
     position: "ADVISOR",
     picture: advisorSabbir,
+    designation: "ASSISTANT PROFESSOR,CSE,IUT",
   },
   {
     name: "FARDIN SAAD",
     position: "ADVISOR",
     picture: advisorFardin,
+    designation: "LECTURER,CSE,IUT",
   },
   {
     name: "IMTIAZ AHMED CHOWDHURY",
     position: "ADVISOR",
     picture: advisorImtiaz,
+    designation: "LECTURER,CSE,IUT",
   },
   {
     name: "NAFISA SADAF HRITI",
     position: "ADVISOR",
     picture: advisorNafisa,
+    designation: "LECTURER,CSE,IUT",
   },
   {
     name: "ALI ABIR SHUVRO",
     position: "ADVISOR",
     picture: advisorShuvro,
+    designation: "LECTURER,CSE,IUT",
   },
   {
     name: "MALIHA NOUSHIN RAIDA",
     position: "ADVISOR",
     picture: advisorRaida,
-  }
+    designation: "LECTURER,CSE,IUT",
+  },
 ];
 
 export const studentBodyContents = [
