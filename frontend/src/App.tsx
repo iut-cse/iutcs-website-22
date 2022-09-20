@@ -8,6 +8,7 @@ import {
 } from "./pages";
 import { Route, Routes } from "react-router-dom";
 import About from "./pages/About";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/activity" element={<Activities />} />
       <Route path="/events" element={<Events />} />
       <Route path="/blogs" element={<NewsBlogs />} />
+      <Route path="/gallery" element={<Gallery/>} />
     </Routes>
   );
 }
