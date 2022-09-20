@@ -1,26 +1,17 @@
+import freshersIcon from "../assets/homepage/freshers.png"
+import intraGirls from "../assets/homepage/intragirls.png"
+
 export const eventsContents = [
   {
-    title: "Title 1",
+    title: "Freshers 22 Loading",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suntaccusantium quos deserunt ad eligendi cumque, ipsa eaque solutavoluptatum distinctio nostrum excepturi, accusamus cupiditatealiquid dicta alias, at provident obcaecati.",
-    image: "https://dummyimage.com/200x200",
+      "IUTCS freshers is one of the most salient events of this club  which sets you all in motion with one of the most riveting journeys. It is held once a year to welcome the new vivacious batch, organized by the endless efforts of the entire iutcs unit of seniors and respected faculties. This programme not only welcomes the freshers, rather acts as a huge encouragement  to participate in different activities of the club such as quizzes, contests and many more and get exciting gifts. All the students and faculties of CSE  join here  to facilitate learning through various activities and traverse their passion for computers as the VC, department head and honorable faculties give their valuable speeches. So, it is an eminent opportunity to watch them speak and get introduced to the club.",
+    image: freshersIcon,
   },
   {
-    title: "Title 2",
+    title: "IUT Intra Girls Programing Contest",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suntaccusantium quos deserunt ad.",
-    image: "https://dummyimage.com/300x300",
-  },
-  {
-    title: "Title 3",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suntaccusantium quos deserunt ad eligendi cumque, ipsa eaque solutavoluptatum distinctio nostrum excepturi, accusamus cupiditatealiquid dicta alias, at provident obcaecati.ad eligendi cumque, ipsa eaque solutavoluptatum distinctio nostrum excepturi, accusamus cupiditatealiquid dicta alia.",
-    image: "https://dummyimage.com/400x400",
-  },
-  {
-    title: "Title 4",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suntaccusantium quos deserunt ad eligendi cumque, ipsa eaque solutavoluptatum distinctio nostrum excepturi, accusamus cupiditatealiquid dicta alias, at provident obcaecati.",
-    image: "https://dummyimage.com/500x500",
-  },
+      "To promote inclusivity and diversity among programmers, IUTCS conducts an annual competition by putting emphasis on female participation, the IUT Intra Girls Programming Contest. This is to encourage competitive programming and problem solving so that girls can get equal opportunities.  Recently, on 14 September, 2022, the first Intra Girls Programming Contest took place where more than 60 people participated.  The top 5 programmers were awarded with prizes and the top programmers from the freshmen batch received honorable mention. In this event necessary facilities to promote coding among girls are provided and participation will not only give you a chance to enhance your problem solving skills but help you gain experience for future jobs as well!",
+    image: intraGirls,
+  }
 ];
