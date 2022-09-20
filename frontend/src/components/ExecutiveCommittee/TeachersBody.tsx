@@ -39,7 +39,10 @@ const TeachersBody = () => {
               <h3 className="text-lg font-medium text-center mb-1">
                 {item.name}
               </h3>
-              <p className="text-base text-white/80 font-medium text-center">
+              <p className="text-base text-white/90 font-medium text-center mb-1">
+                {item.designation}
+              </p>
+              <p className="text-base text-white/70 font-medium text-center">
                 {item.position}
               </p>
             </div>
