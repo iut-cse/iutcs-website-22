@@ -26,7 +26,7 @@ const IntroSection = () => {
               ducimus saepe eveniet, voluptas alias quam atque quia, accusamus
               aspernatur dolore magnam eligendi explicabo consequuntur possimus
               illum vero tempore at molestiae laboriosam provident animi. Hic
-              vel non est dolore harum eligendi voluptas alias
+              vel non est dolore harum eligendi voluptas alias``
             </p>
           </motion.div>
         </div>
