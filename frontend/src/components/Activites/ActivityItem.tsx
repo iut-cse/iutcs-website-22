@@ -21,7 +21,7 @@ const ActivityItem = ({ session, index }: Props) => {
           duration: 1,
           type: "spring",
           damping: 20,
-          delay: 0.5,
+          delay: 0.4,
         },
       }}
       className="cardBg mb-8  md:mb-10"
@@ -29,9 +29,9 @@ const ActivityItem = ({ session, index }: Props) => {
       <div className="max-w-screen-xl p-6 mx-auto lg:p-8">
         <div className="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2 row">
           <div
-            className={`relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full lg:${
+            className={`relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full md:${
               index % 2 === 0 ? "order-last" : "order-first"
-            } }`}
+            } `}
           >
             <img
               alt="Party"

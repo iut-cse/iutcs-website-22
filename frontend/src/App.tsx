@@ -7,11 +7,11 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About/>} />
+      <Route path="/about" element={<About />} />
       <Route path="/committee" element={<ExecutiveCommittee />} />
       <Route path="/sponsors" element={<Sponsors />} />
       <Route path="/gallery" element={<Activities />} />
-      <Route path="/blogs" element={<NewsBlogs/>} />
+      <Route path="/blogs" element={<NewsBlogs />} />
     </Routes>
   );
 }

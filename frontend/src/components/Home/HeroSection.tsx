@@ -11,7 +11,7 @@ const HeroSection = () => {
     <>
       <div className="bg-overlay bg-cover bg-center bg-no-repeat absolute top-0 left-0 right-0 bottom-0 overflow-hidden" />
       <div className="bg-navyBlue w-screen h-screen flex">
-        <div className="w-full md:w-1/2 flex flex-col justify-center pl-12 md:pl-28">
+        <div className="w-full md:w-1/2 flex flex-col justify-center pl-12 md:pl-36">
           <h1 className="text-[92px] md:text-[120px] lg:text-[150px] font-semibold">
             <AnimatedLetters text={"IUTCS"} delay={0.12} />
           </h1>

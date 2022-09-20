@@ -38,12 +38,15 @@ const GallerySection = () => {
                 className="flex flex-col p-3 md:w-2/5 lg:w-1/4 w-full rounded-xl shadow-sm cardBg"
                 key={index}
               >
-                <div className="bg-lightBlue w-full h-56 rounded-md flex items-center justify-center">
-                  <img src={item.icon} alt="" className="object-cover" />
+                <div className="w-full h-52 rounded-md flex items-center justify-center animate-pulse duration-1000">
+                  <img
+                    src={item.icon}
+                    className="object-cover w-16 md:w-[75px]"
+                  />
                 </div>
 
-                <div className="mt-4 mb-1">
-                  <h3 className="text-xl font-medium text-center">
+                <div className="mt-4 mb-4">
+                  <h3 className="text-[22px] font-medium text-center">
                     {item.title}
                   </h3>
                 </div>
