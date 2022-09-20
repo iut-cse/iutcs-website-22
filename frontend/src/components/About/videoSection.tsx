@@ -15,7 +15,7 @@ const VideoSection = () => {
                         />
                     </video>
                 </div>
-                <div className='flex flex-col md:flex-row w-full md:w-5/6 justify-around items-center'>
+                <div className='flex flex-col md:flex-row w-full md:w-5/6 justify-around items-center mt-10'>
                     <div className='w-full md:w-3/5 items-center justify-center text-center md:text-left'>
                         <p className='py-8 px-12'>
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
