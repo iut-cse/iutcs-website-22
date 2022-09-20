@@ -1,20 +1,14 @@
-import About from "./pages/About";
-import Home from "./pages/Home";
-import NewsBlogs from "./pages/NewsBlogs";
-
-// interface newsProps {
-//   title: string,
-//   text: string,
-//   imageUrl: string
-// }
+import { Home, ExecutiveCommittee, Sponsors, Activities } from "./pages";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="">
-      {/* <Home /> */}
-      {/* <About/> */}
-      <NewsBlogs title={""} text={""} imageUrl={""}/>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/committee" element={<ExecutiveCommittee />} />
+      <Route path="/sponsors" element={<Sponsors />} />
+      <Route path="/gallery" element={<Activities />} />
+    </Routes>
   );
 }
 
