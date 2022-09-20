@@ -7,10 +7,10 @@ import {
   sponsors,
 } from "../assets/icons";
 export const galleryContents = [
-  { title: "About", icon: about },
-  { title: "Events", icon: events },
-  { title: "Our People", icon: people },
-  { title: "Gallery", icon: gallery },
-  { title: "Hall of Fame", icon: fame },
-  { title: "Sponsors", icon: sponsors },
+  { title: "About", icon: about, path: "/about" },
+  { title: "Events", icon: events, path: "/events" },
+  { title: "Our People", icon: people, path: "/committee" },
+  { title: "Gallery", icon: gallery, path: "/gallery" },
+  { title: "Hall of Fame", icon: fame, path: "/" },
+  { title: "Sponsors", icon: sponsors, path: "/sponsors" },
 ];

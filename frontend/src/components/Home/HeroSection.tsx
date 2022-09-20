@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="bg-navyBlue w-screen h-screen flex">
         <div className="w-full md:w-1/2 flex flex-col justify-center pl-12 md:pl-36">
           <h1 className="text-[92px] md:text-[120px] lg:text-[150px] font-semibold">
-            <AnimatedLetters text={"IUTCS"} delay={0.12} />
+            <AnimatedLetters text={"IUTCS"} delay={0.15} />
           </h1>
           <h3
             className="text-[25px] md:text-[32px] lg:text-[41px] font-medium -mt-2 md:-mt-8"
@@ -29,7 +29,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{
                 type: "spring",
-                delay: 0.9,
+                delay: 1.3,
                 duration: 1,
               }}
               src={laptopImg}
@@ -41,7 +41,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{
                 type: "spring",
-                delay: 1.5,
+                delay: 2,
                 duration: 1,
               }}
               src={neonImg}
@@ -52,7 +52,7 @@ const HeroSection = () => {
               animate={{ opacity: [0, 1], scale: [0, 1.4, 1] }}
               transition={{
                 type: "spring",
-                delay: 2.1,
+                delay: 2.4,
                 duration: 1,
               }}
               src={code}
@@ -63,7 +63,7 @@ const HeroSection = () => {
               animate={{ opacity: [0, 1], scale: [0, 1.2, 1] }}
               transition={{
                 type: "spring",
-                delay: 2.5,
+                delay: 2.8,
                 duration: 1,
               }}
               src={curlyBrace}

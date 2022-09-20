@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import AnimatedLetters from "../../animation/AnimatedLetters";
 import { galleryContents } from "../../data/galleryContent";
+import { Link } from "react-router-dom";
 
 const GallerySection = () => {
   return (
@@ -38,18 +39,18 @@ const GallerySection = () => {
                 className="flex flex-col p-3 md:w-2/5 lg:w-1/4 w-full rounded-xl shadow-sm cardBg"
                 key={index}
               >
-                <div className="w-full h-52 rounded-md flex items-center justify-center animate-pulse duration-1000">
+                <div className="w-full h-52 rounded-md flex items-center justify-center duration-1000">
                   <img
                     src={item.icon}
                     className="object-cover w-16 md:w-[75px]"
                   />
                 </div>
 
-                <div className="mt-4 mb-4">
+                <Link to={item.path} className="mt-4 mb-4">
                   <h3 className="text-[22px] font-medium text-center">
                     {item.title}
                   </h3>
-                </div>
+                </Link>
               </motion.div>
             ))}
           </div>

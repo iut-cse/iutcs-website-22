@@ -4,7 +4,6 @@ interface newsProps {
     title: string;
     text: string;
     imageUrl: string;
-    direction: boolean;
   };
   index: number;
 }
