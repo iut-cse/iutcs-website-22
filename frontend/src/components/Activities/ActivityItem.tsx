@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { fadeIn } from "../../animation/varients";
 interface Props {
   session: {
     title: string;

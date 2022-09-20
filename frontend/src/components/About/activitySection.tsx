@@ -1,58 +1,45 @@
+import { motion } from "framer-motion";
 import AnimatedLetters from "../../animation/AnimatedLetters";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
-import { useState } from "react";
 
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
-interface Props {
-  slideNo: number;
-}
-
-function ActivitySection () {
-  const [slideNo, setSlideNo] = useState(0);
+function ActivitySection() {
   return (
-    <div className='bg-darkBlue px-10 lg:px-44 py-16 md:py-28'>
-      <h1 className='text-4xl md:text-5xl text-left mt-8 mb-12 md:mb-16 font-medium'>
+    <div className="lg:px-40 md:px-20 px-2 my-28">
+      <h1 className="text-3xl md:text-4xl md:text-left text-center mt-8 mb-8 md:mb-12 font-medium">
         <AnimatedLetters text={"Our Activities"} />
       </h1>
-      <div className='flex flex-col md:flex-row justify-evenly items-center'>
-        <div className='w-full md:w-1/2  rounded-3xl'>
-          <Swiper
-            slidesPerView={1}
-            spaceBetween={50}
-            navigation={true}
-            pagination={{
-              type: "bullets",
-              clickable: true,
+      <div className="flex flex-col md:flex-row justify-evenly items-center">
+        <div className="w-full md:w-1/2 rounded-3xl">
+          <motion.img
+            viewport={{ once: true, margin: "0px 0px -120px 0px" }}
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{
+              type: "spring",
+              duration: 0.5,
+              delay: 0.2,
             }}
-            modules={[Pagination, Navigation]}
-            onSlideChange={swiper => setSlideNo(swiper.activeIndex)}
-            className='rounded-3xl'
-          >
-            {[...Array(4).keys()].map((_, key) => (
-              <SwiperSlide className='' key={key}>
-                <div>
-                  <img
-                    src='https://dummyimage.com/500x500'
-                    alt='events'
-                    className='w-full h-[250px] md:h-[400px] object-cover rounded-3xl'
-                  />
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+            src="https://dummyimage.com/600x400"
+            className="w-full h-[250px] md:h-[400px] rounded-3xl"
+          />
         </div>
-        <div className='md:1/2 ml-20 mt-12 md:mt-0'>
-          <ul className='text-left text-2xl md:text-3xl' style={{listStyleType:"disc"}}>
-            <li className='mb-3'>Regular Sessions</li>
-            <li className='mb-3'>Workshop & Seminars </li>
-            <li className='mb-3'>Industry Academia Colaboration</li>
-            <li className=''>Arranging Events</li>
+        <motion.div
+          viewport={{ once: true, margin: "0px 0px -120px 0px" }}
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            type: "spring",
+            duration: 0.5,
+            delay: 1,
+          }}
+          className="w-full md:w-1/2 md:ml-20 mt-8 md:mt-0 cardBg"
+        >
+          <ul className="text-left  mtext-xl md:text-2xl px-4 py-8 md:px-12 md:py-16 list-none">
+            <li className="mb-3">1. Regular Sessions</li>
+            <li className="mb-3">2. Workshop & Seminars </li>
+            <li className="mb-3">3. Industry Academia Colaboration</li>
+            <li className="">4. Arranging Events</li>
           </ul>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
