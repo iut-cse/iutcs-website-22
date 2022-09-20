@@ -1,6 +1,12 @@
-import { Home, ExecutiveCommittee, Sponsors, Activities } from "./pages";
+import {
+  Home,
+  ExecutiveCommittee,
+  Sponsors,
+  Activities,
+  Events,
+  NewsBlogs,
+} from "./pages";
 import { Route, Routes } from "react-router-dom";
-import NewsBlogs from "./pages/NewsBlogs";
 import About from "./pages/About";
 
 function App() {
@@ -10,7 +16,8 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/committee" element={<ExecutiveCommittee />} />
       <Route path="/sponsors" element={<Sponsors />} />
-      <Route path="/gallery" element={<Activities />} />
+      <Route path="/activity" element={<Activities />} />
+      <Route path="/events" element={<Events />} />
       <Route path="/blogs" element={<NewsBlogs />} />
     </Routes>
   );

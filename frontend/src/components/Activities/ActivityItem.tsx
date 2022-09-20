@@ -29,9 +29,9 @@ const ActivityItem = ({ session, index }: Props) => {
       <div className="max-w-screen-xl p-6 mx-auto lg:p-8">
         <div className="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2 row">
           <div
-            className={`relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full md:${
-              index % 2 === 0 ? "order-last" : "order-first"
-            } `}
+            className={`relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full ${
+              index % 2 ? "order-first" : "order-last"
+            }`}
           >
             <img
               alt="Party"

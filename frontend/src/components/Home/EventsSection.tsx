@@ -67,11 +67,11 @@ const EventsSection = () => {
             onSlideChange={(swiper) => setSlideNo(swiper.activeIndex)}
             className="rounded-3xl"
           >
-            {[...Array(4).keys()].map((_, key) => (
+            {eventsContents.map((event, key) => (
               <SwiperSlide className="" key={key}>
                 <div>
                   <img
-                    src="https://dummyimage.com/500x500"
+                    src={event.image}
                     alt="events"
                     className="w-full h-[250px] md:h-[500px] object-cover rounded-3xl"
                   />
