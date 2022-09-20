@@ -18,7 +18,7 @@ function ActivitySection () {
       <h1 className='text-4xl md:text-5xl text-left mt-8 mb-12 md:mb-16 font-medium'>
         <AnimatedLetters text={"Our Activities"} />
       </h1>
-      <div className='flex justify-evenly items-center'>
+      <div className='flex flex-col md:flex-row justify-evenly items-center'>
         <div className='w-full md:w-1/2  rounded-3xl'>
           <Swiper
             slidesPerView={1}
@@ -45,8 +45,8 @@ function ActivitySection () {
             ))}
           </Swiper>
         </div>
-        <div className='md:1/2 ml-20'>
-          <ul className='text-left text-3xl' style={{listStyleType:"disc"}}>
+        <div className='md:1/2 ml-20 mt-12 md:mt-0'>
+          <ul className='text-left text-2xl md:text-3xl' style={{listStyleType:"disc"}}>
             <li className='mb-3'>Regular Sessions</li>
             <li className='mb-3'>Workshop & Seminars </li>
             <li className='mb-3'>Industry Academia Colaboration</li>
