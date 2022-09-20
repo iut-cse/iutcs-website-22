@@ -44,7 +44,7 @@ const AnimatedLetters = ({ text, delay = 0.06 }: Props) => {
       viewport={{ once: true, margin: "0px 0px -50px 0px" }}
     >
       {letters.map((letter, i) => (
-        <motion.span variants={child} key={i} className="mr-0.5 z-10">
+        <motion.span variants={child} key={i} className="mr-[1px] z-10">
           {letter === " " ? "\u00A0" : letter}
         </motion.span>
       ))}

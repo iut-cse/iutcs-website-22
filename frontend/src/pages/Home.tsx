@@ -10,7 +10,7 @@ import {
 
 const Home = () => {
   return (
-    <div className="overflow-hidden bg-navyBlue">
+    <div className="overflow-hidden">
       <Navbar />
       <HeroSection />
       <IntroSection />
