@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import AnimatedLetters from "../../animation/AnimatedLetters";
+import logo from "../../assets/iutcs.jpg";
 
 const IntroSection = () => {
   return (
@@ -22,11 +23,22 @@ const IntroSection = () => {
             className="mb-8 leading-relaxed text-white/80 md:w-2/3 w-5/6 text-base md:text-lg font-medium cardBg"
           >
             <p className="py-8 px-12">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
-              ducimus saepe eveniet, voluptas alias quam atque quia, accusamus
-              aspernatur dolore magnam eligendi explicabo consequuntur possimus
-              illum vero tempore at molestiae laboriosam provident animi. Hic
-              vel non est dolore harum eligendi voluptas alias``
+              With the purpose of contributing to make an impact on the computer
+              engineering community of the whole nation, IUT Computer Society
+              was founded in 2008 by the talented students of the department of
+              Computer Science and Engineering (CSE) (former CIT) of Islamic
+              University of Technology (IUT). Being one of the main Societies in
+              IUT, IUTCS offers young engineers a useful and beneficial platform
+              to develop their intelligence and promote their information. Our
+              vibrant student body organizes numerous activities on a regular
+              basis, including programming classes and competitions, application
+              development classes, co-curricular aid and projects, etc. Students
+              from different departments are welcome to join to contribute to
+              the community's continued growth. We are extremely delighted to
+              declare that IUTCS was the first organization in our nation to
+              successfully organize the "Prime Bank 1st IUT National ICT
+              Fest-2008" in August of 2008 and so far continuing to uphold this
+              honor for ten years.
             </p>
           </motion.div>
         </div>
@@ -42,7 +54,7 @@ const IntroSection = () => {
             }}
             className="object-cover object-center rounded-2xl md:w-[400px] md:h-[400px]"
             alt="hero"
-            src="https://dummyimage.com/400x400"
+            src={logo}
           />
         </div>
       </div>
