@@ -8,12 +8,13 @@ const VideoSection = () => {
             </h1>
             <div className='flex flex-col justify-center items-center '>
                 <div className='flex flex-col justify-center items-center mb-10'>
-                    <video width='1244' height='500' controls>
+                    {/* <video  autoPlay width='1244' height='500' controls>
                         <source
-                            src='https://drive.google.com/uc?export=download&id=1eqqkBZv8McuGV_EJwYpCNrLlZQZLSx72'
+                            src='videos/About IUTCS.mp4'
                             type='video/mp4'
                         />
-                    </video>
+                    </video> */}
+                <iframe src="https://drive.google.com/file/d/1eqqkBZv8McuGV_EJwYpCNrLlZQZLSx72/preview" width="1240" height="600" allow="autoplay"></iframe>
                 </div>
                 <div className='flex flex-col md:flex-row w-full md:w-5/6 justify-around items-center mt-10'>
                     <div className='w-full md:w-3/5 items-center justify-center text-center md:text-left'>
