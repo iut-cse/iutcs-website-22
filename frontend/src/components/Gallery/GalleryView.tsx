@@ -71,20 +71,20 @@ function GalleryView() {
             className="w-full h-[250px] md:h-[300px] object-cover"
           />
         </div>
-        <div className="md:row-span-2 md:-mt-36 mt-0">
+        <div className="md:row-span-2 md:-mt-[9.4rem] mt-0">
           <motion.img
             variants={fadeIn()}
             src="https://dummyimage.com/500x500"
             alt="events"
-            className="w-full h-[250px] md:h-[444px] object-cover "
+            className="w-full h-[250px] md:h-[450px] object-cover "
           />
         </div>
-        <div className="md:col-span-2 md:row-span-2 md:-mt-36 mt-0">
+        <div className="md:col-span-2 md:row-span-2 md:-mt-[9.4rem] mt-0">
           <motion.img
             variants={fadeIn()}
             src="https://dummyimage.com/500x500"
             alt="events"
-            className="w-full h-[250px] md:h-[444px] object-cover"
+            className="w-full h-[250px] md:h-[450px] object-cover"
           />
         </div>
         <div>

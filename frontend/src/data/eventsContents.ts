@@ -1,5 +1,5 @@
-import freshersIcon from "../assets/homepage/freshers.png"
-import intraGirls from "../assets/homepage/intragirls.png"
+import freshersIcon from "../assets/homepage/freshers.png";
+import intraGirls from "../assets/homepage/intragirls.png";
 
 export const eventsContents = [
   {
@@ -11,7 +11,7 @@ export const eventsContents = [
   {
     title: "IUT Intra Girls Programing Contest",
     description:
-      "To promote inclusivity and diversity among programmers, IUTCS conducts an annual competition by putting emphasis on female participation, the IUT Intra Girls Programming Contest. This is to encourage competitive programming and problem solving so that girls can get equal opportunities.  Recently, on 14 September, 2022, the first Intra Girls Programming Contest took place where more than 60 people participated.  The top 5 programmers were awarded with prizes and the top programmers from the freshmen batch received honorable mention. In this event necessary facilities to promote coding among girls are provided and participation will not only give you a chance to enhance your problem solving skills but help you gain experience for future jobs as well!",
+      "To promote inclusivity and diversity among programmers, IUTCS conducts an annual competition by putting emphasis on female participation, the IUT Intra Girls Programming Contest. This is to encourage competitive programming and problem solving so that girls can get equal opportunities.  Recently, on 14 September, 2022, the first Intra Girls Programming Contest took place where more than 60 people participated.  The top 5 programmers were awarded with prizes and the top programmers from the freshmen batch received honorable mention.",
     image: intraGirls,
-  }
+  },
 ];

@@ -46,7 +46,7 @@ const EventsSection = () => {
   const [slideNo, setSlideNo] = useState(0);
 
   return (
-    <div className="bg-darkBlue px-10 lg:px-44 py-16 md:py-28">
+    <div className="bg-darkBlue px-10 lg:px-32 py-16 md:py-28">
       <h1 className="text-4xl md:text-5xl text-center mb-12 md:mb-20 font-medium">
         <AnimatedLetters text={"What's Going On"} />
       </h1>

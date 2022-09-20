@@ -59,6 +59,10 @@
   -webkit-backdrop-filter: blur(4px);
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  font-weight: bold;
+}
 @media screen and (max-width: 640px) {
   .swiper-button-next,
   .swiper-button-prev {
