@@ -20,11 +20,9 @@ const MissionSection = () => {
             delay: 1.2,
           }}
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
-          ducimus saepe eveniet, voluptas alias quam atque quia, accusamus
-          aspernatur dolore magnam eligendi explicabo consequuntur possimus
-          illum vero tempore at molestiae laboriosam provident animi. Hic vel
-          non est dolore harum eligendi voluptas alia
+          Being one of the main Societies in IUT, Our Mission is to offer young engineers a
+          useful and beneficial platform to develop their intelligence and
+          promote their information in computer technology.
         </motion.p>
       </div>
     </div>
