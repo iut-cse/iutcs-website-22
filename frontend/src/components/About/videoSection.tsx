@@ -28,11 +28,11 @@ const VideoSection = () => {
               }}
               className="py-4 md:py-8 md:pl-12 w-full md:max-w-xl text-white/80"
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
-              ducimus saepe eveniet, voluptas alias quam atque quia, accusamus
-              aspernatur dolore magnam eligendi explicabo consequuntur possimus
-              illum vero tempore at molestiae laboriosam provident animi. Hic
-              vel non est dolore harum eligendi voluptas alias``
+              With the purpose of contributing to make an impact on the computer
+              engineering community of the whole nation, IUT Computer Society
+              was founded in 2008 by the talented students of the department of
+              Computer Science and Engineering (CSE) (former CIT) of Islamic
+              University of Technology (IUT).
             </motion.p>
           </div>
 

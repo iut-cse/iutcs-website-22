@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import AnimatedLetters from "../../animation/AnimatedLetters";
+import events from "../../assets/aboutPage/events.jpg"
 
 function RegularSessions() {
   return (
@@ -18,7 +19,7 @@ function RegularSessions() {
               duration: 0.5,
               delay: 0.2,
             }}
-            src="https://dummyimage.com/600x400"
+            src={events}
             className="w-full h-[250px] md:h-[400px] rounded-3xl"
           />
         </div>
