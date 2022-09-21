@@ -1,6 +1,16 @@
 import AnimatedLetters from "../../animation/AnimatedLetters";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../../animation/varients";
+import one from "../../assets/Gallery/1.jpg"
+import two from "../../assets/Gallery/2.jpg"
+import three from "../../assets/Gallery/3.jpg"
+import four from "../../assets/Gallery/4.jpg"
+import five from "../../assets/Gallery/5.jpg"
+import six from "../../assets/Gallery/6.jpg"
+import seven from "../../assets/Gallery/7.jpg"
+import eight from "../../assets/Gallery/8.jpg"
+import nine from "../../assets/Gallery/9.jpg";
+import ten from "../../assets/Gallery/10.jpg";
 
 function GalleryView() {
   return (
@@ -17,7 +27,7 @@ function GalleryView() {
         <div>
           <motion.img
             variants={fadeIn()}
-            src="https://dummyimage.com/500x500"
+            src={one}
             alt="events"
             className="w-full h-[250px] md:h-[300px] object-cover grid-"
           />
@@ -25,7 +35,7 @@ function GalleryView() {
         <div className="md:col-span-2 md:row-span-2">
           <motion.img
             variants={fadeIn()}
-            src="https://dummyimage.com/500x500"
+            src={two}
             alt="events"
             className="w-full h-[250px] md:h-[460px] object-cover "
           />
@@ -33,7 +43,7 @@ function GalleryView() {
         <div className="md:row-span-2">
           <motion.img
             variants={fadeIn()}
-            src="https://dummyimage.com/500x500"
+            src={three}
             alt="events"
             className="w-full h-[250px] md:h-[460px] object-cover"
           />
@@ -42,7 +52,7 @@ function GalleryView() {
         <div>
           <motion.img
             variants={fadeIn()}
-            src="https://dummyimage.com/500x500"
+            src={four}
             alt="events"
             className="w-full h-[250px] md:h-[300px] object-cover "
           />
@@ -50,7 +60,7 @@ function GalleryView() {
         <div>
           <motion.img
             variants={fadeIn()}
-            src="https://dummyimage.com/500x500"
+            src={five}
             alt="events"
             className="w-full h-[250px] md:h-[300px] object-cover "
           />
@@ -58,7 +68,7 @@ function GalleryView() {
         <div>
           <motion.img
             variants={fadeIn()}
-            src="https://dummyimage.com/500x500"
+            src={six}
             alt="events"
             className="w-full h-[250px] md:h-[300px] object-cover"
           />
@@ -66,7 +76,7 @@ function GalleryView() {
         <div>
           <motion.img
             variants={fadeIn()}
-            src="https://dummyimage.com/500x500"
+            src={seven}
             alt="events"
             className="w-full h-[250px] md:h-[300px] object-cover"
           />
@@ -74,7 +84,7 @@ function GalleryView() {
         <div className="md:row-span-2 md:-mt-[9.4rem] mt-0">
           <motion.img
             variants={fadeIn()}
-            src="https://dummyimage.com/500x500"
+            src={eight}
             alt="events"
             className="w-full h-[250px] md:h-[450px] object-cover "
           />
@@ -82,7 +92,7 @@ function GalleryView() {
         <div className="md:col-span-2 md:row-span-2 md:-mt-[9.4rem] mt-0">
           <motion.img
             variants={fadeIn()}
-            src="https://dummyimage.com/500x500"
+            src={nine}
             alt="events"
             className="w-full h-[250px] md:h-[450px] object-cover"
           />
@@ -90,7 +100,7 @@ function GalleryView() {
         <div>
           <motion.img
             variants={fadeIn()}
-            src="https://dummyimage.com/500x500"
+            src={ten}
             alt="events"
             className="w-full h-[250px] md:h-[300px] object-cover"
           />
