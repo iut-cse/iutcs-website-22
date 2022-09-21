@@ -23,7 +23,7 @@ import fairuz from "../assets/executives-committee/student-body/Fairuz.jpeg";
 import sheetab from "../assets/executives-committee/student-body/Sheetab.jpeg";
 import abrar from "../assets/executives-committee/student-body/Abrar.jpg";
 import adib from "../assets/executives-committee/student-body/Adib.jpg";
-import ridwan from "../assets/executives-committee/student-body/Nibir.jpg";
+import ridwan from "../assets/executives-committee/student-body/Ridwan.jpg";
 import adiba from "../assets/executives-committee/student-body/Adiba.jpg";
 import taufiqul from "../assets/executives-committee/student-body/Taufiqul.jpg";
 import anuva from "../assets/executives-committee/student-body/Anuva.jpg";

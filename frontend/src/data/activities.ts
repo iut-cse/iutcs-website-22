@@ -1,8 +1,8 @@
-import ictfest from "../assets/activities/ictfest.jpg"
-import programingcontest from "../assets/activities/programincontest.jpg"
-import girlsprograming from "../assets/activities/girlsprograming.jpg"
-import hackathon from "../assets/activities/hackathon.jpg"
-import ideacontest from "../assets/activities/idea.jpg"
+import ictfest from "../assets/activities/ictfest.jpg";
+import programingcontest from "../assets/activities/programincontest.jpg";
+import girlsprograming from "../assets/activities/girlsprograming.jpg";
+import hackathon from "../assets/activities/hackathon.jpg";
+import ideacontest from "../assets/activities/idea.jpg";
 import gamejam from "../assets/activities/gamejam.jpg";
 import appdev from "../assets/activities/appdev.jpg";
 import webdev from "../assets/activities/webdev.jpg";
@@ -14,13 +14,13 @@ export const sessions = [
   {
     title: "ICT Fest",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione maiores aut illum commodi voluptates saepe ipsum ducimus, eaque inventore nihil exercitationem magni aliquam quo illo a in nemo ipsam officia.Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.",
+      "ICT Fest is the culmination of all the great things IUTCS has to offer in a single fest. If there is one thing IUTCS is known for its ICT Fest, its signature event. The event consists of programming contest, hackathon, gaming, olympiad, machine learning etc. spanning over two whole days.",
     picture: ictfest,
   },
   {
     title: "Intra Programing Contest",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione maiores aut illum commodi voluptates saepe ipsum ducimus",
+      "A part of the series of activities of IUTCS to allow IUT students' showcasing their problem solving, programming and teamwork skills.",
     picture: programingcontest,
   },
   {
@@ -32,19 +32,19 @@ export const sessions = [
   {
     title: "Idea Contest",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione maiores aut illum commodi voluptates saepe ipsum ducimus",
+      "Application Development is a booming sector in the modern technology world. IUTCS arranges Idea Contests to give the participants knowledge about these prospect and increase their knowledge.",
     picture: ideacontest,
   },
   {
     title: "Hackathon",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione maiores aut illum commodi voluptates saepe ipsum ducimus",
+      "A hackathon (also known as a hack day, hackfest, datathon or codefest; a portmanteau of hacking marathon) is a sprint-like design event wherein computer programmers and others involved in software development, including graphic designers, interface designers, product managers, project managers, domain experts, and others collaborate intensively on software projects. IUTCS holds hackathons to give the participants idea about the Industries.",
     picture: hackathon,
   },
   {
     title: "Game Jam",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione maiores aut illum commodi voluptates saepe ipsum ducimus",
+      "A game jam is an event where participants try to make a video game from scratch. Depending on the format, participants might work independently, or in teams. The video game sector is a very lucrative sector for enthusiasts. IUTCS arranges Gamejam to prepare the participants for the vast sector of game creation.",
     picture: gamejam,
   },
   {
@@ -60,8 +60,9 @@ export const sessions = [
     picture: webdev,
   },
   {
-    title: "Competetive Programing Sessions",
-    description: "",
+    title: "Competetive Programming Sessions",
+    description:
+      "IUTCS arranges Competitive Programming Sessions to teach and encourage the enthusiasts about problem solving, competitive programming and analytical thinking.",
     picture: competetiveSessions,
   },
   {
