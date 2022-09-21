@@ -3,9 +3,9 @@ import intraGirls from "../assets/homepage/intragirls.png";
 
 export const eventsContents = [
   {
-    title: "Freshers 22 Loading",
+    title: "Freshers 22 Loading ...",
     description:
-      "IUTCS freshers is one of the most salient events of this club  which sets you all in motion with one of the most riveting journeys. It is held once a year to welcome the new vivacious batch, organized by the endless efforts of the entire iutcs unit of seniors and respected faculties. This programme not only welcomes the freshers, rather acts as a huge encouragement  to participate in different activities of the club such as quizzes, contests and many more and get exciting gifts. All the students and faculties of CSE  join here  to facilitate learning through various activities and traverse their passion for computers as the VC, department head and honorable faculties give their valuable speeches. So, it is an eminent opportunity to watch them speak and get introduced to the club.",
+      "IUTCS freshers is one of the most salient events of this club  which sets you all in motion with one of the most riveting journeys. It is held once a year to welcome the new vivacious batch, organized by the endless efforts of the entire iutcs unit of seniors and respected faculties. This programme not only welcomes the freshers, rather acts as a huge encouragement  to participate in different activities of the club such as quizzes, contests and many more and get exciting gifts. All the students and faculties of CSE  join here  to facilitate learning through various activities and traverse their passion for computers.",
     image: freshersIcon,
   },
   {

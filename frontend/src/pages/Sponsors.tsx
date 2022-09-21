@@ -19,7 +19,7 @@ const Sponsors = () => {
               transition={{
                 type: "easeIn",
                 duration: 1,
-                delay: index * 0.2,
+                delay: index * 0.15,
               }}
               className="flex flex-col w-full rounded-3xl shadow-sm relative"
               key={index}
@@ -28,12 +28,12 @@ const Sponsors = () => {
                 <img
                   src={item.logo}
                   alt=""
-                  className="object-cover w-full h-full rounded-2xl"
+                  className="object-cover w-full h-full rounded-2xl bg-white"
                 />
               </div>
 
               <div className="absolute top-0 left-0 right-0 bottom-0 h-full px-2 flex items-center justify-center bg-navyBlueLight/80 rounded-2xl opacity-0 hover:opacity-100 transition-all duration-500 ease-out">
-                <h3 className="text-lg font-medium text-center mb-1 filter brightness-150">
+                <h3 className="text-2xl font-medium text-center mb-1 filter brightness-150">
                   {item.name}
                 </h3>
               </div>

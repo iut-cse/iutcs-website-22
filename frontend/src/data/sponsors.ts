@@ -1,8 +1,8 @@
-import abbank from "../assets/sponsors/ABBank.png"
-import akg from "../assets/sponsors/AKG.png"
-import bno from "../assets/sponsors/BNO.png"
-import cocacola from "../assets/sponsors/CocaCola.png"
-import dancake from "../assets/sponsors/DanCake.png"
+import abbank from "../assets/sponsors/ABBank.png";
+import akg from "../assets/sponsors/AKG.png";
+import bno from "../assets/sponsors/BNO.png";
+import cocacola from "../assets/sponsors/CocaCola.png";
+import dancake from "../assets/sponsors/DanCake.png";
 // import elite from "../assets/sponsors/Elite.png";
 import flora from "../assets/sponsors/Flora.png";
 import foodministry from "../assets/sponsors/FoodMinistry.png";
@@ -23,6 +23,6 @@ export const sponsors = [
   { name: "Flora", logo: flora },
   { name: "Food Ministry", logo: foodministry },
   { name: "First Sequrity Islami Bank", logo: fsib },
-  { name: "Islami Bank", logo: ibbl },
+  { name: "Islamic Bank", logo: ibbl },
   { name: "IPDC", logo: ipdc },
 ];

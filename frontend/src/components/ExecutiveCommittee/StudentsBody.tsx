@@ -22,7 +22,7 @@ const StudentsBody = () => {
             transition={{
               type: "easeIn",
               duration: 1,
-              delay: index * 0.12,
+              delay: index * 0.08,
             }}
             className="flex flex-col p-3 w-full rounded-xl shadow-sm cardBg"
             key={index}

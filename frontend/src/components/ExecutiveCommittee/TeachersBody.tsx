@@ -22,7 +22,7 @@ const TeachersBody = () => {
             transition={{
               type: "easeIn",
               duration: 1,
-              delay: index * 0.12,
+              delay: index * 0.08,
             }}
             className="flex flex-col p-3 w-full rounded-xl shadow-sm cardBg"
             key={index}
@@ -35,14 +35,12 @@ const TeachersBody = () => {
               />
             </div>
 
-            <div className="mt-4 mb-1">
-              <h3 className="text-lg font-medium text-center mb-1">
-                {item.name}
-              </h3>
-              <p className="text-base text-white/90 font-medium text-center mb-1">
+            <div className="mt-4 mb-1 space-y-1">
+              <h3 className="text-lg font-medium text-center">{item.name}</h3>
+              <p className="text-base text-white/90 font-medium text-center">
                 {item.designation}
               </p>
-              <p className="text-base text-white/70 font-medium text-center">
+              <p className="text-sm text-white/90 font-medium text-center">
                 {item.position}
               </p>
             </div>
