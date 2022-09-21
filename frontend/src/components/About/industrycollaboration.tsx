@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import AnimatedLetters from "../../animation/AnimatedLetters";
-import events from "../../assets/aboutPage/events.jpg"
+import collaboration from "../../assets/aboutPage/industrycollaboration.jpg"
 
 function IndustryCollaboration() {
   return (
@@ -19,7 +19,7 @@ function IndustryCollaboration() {
               duration: 0.5,
               delay: 0.2,
             }}
-            src={events}
+            src={collaboration}
             className="w-full h-[250px] md:h-[400px] rounded-3xl"
           />
         </div>
@@ -35,10 +35,7 @@ function IndustryCollaboration() {
           className="w-full md:w-1/2 md:mr-20 mt-8 md:mt-0 cardBg"
         >
           <ul className="text-left  mtext-xl md:text-2xl px-4 py-8 md:px-12 md:py-16 list-none">
-            <li className="mb-3">1. Regular Sessions</li>
-            <li className="mb-3">2. Workshop & Seminars </li>
-            <li className="mb-3">3. Industry Academia Colaboration</li>
-            <li className="">4. Arranging Events</li>
+            <li className="mb-3">Industry Academia Colaboration with top industry experts</li>
           </ul>
         </motion.div>
       </div>

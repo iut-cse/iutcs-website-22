@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import AnimatedLetters from "../../animation/AnimatedLetters";
-import events from "../../assets/aboutPage/events.jpg"
+import session from "../../assets/aboutPage/session.jpeg"
 
 function RegularSessions() {
   return (
@@ -19,7 +19,7 @@ function RegularSessions() {
               duration: 0.5,
               delay: 0.2,
             }}
-            src={events}
+            src={session}
             className="w-full h-[250px] md:h-[400px] rounded-3xl"
           />
         </div>
@@ -35,10 +35,12 @@ function RegularSessions() {
           className="w-full md:w-1/2 md:mr-20 mt-8 md:mt-0 cardBg"
         >
           <ul className="text-left  mtext-xl md:text-2xl px-4 py-8 md:px-12 md:py-16 list-none">
-            <li className="mb-3">1. Regular Sessions</li>
-            <li className="mb-3">2. Workshop & Seminars </li>
-            <li className="mb-3">3. Industry Academia Colaboration</li>
-            <li className="">4. Arranging Events</li>
+            <li className="mb-3">Regular Sessions of</li>
+            <li className="mb-3">1. Mobile App Development</li>
+            <li className="mb-3">2. Web App Development </li>
+            <li className="mb-3">3. Programing Contest</li>
+            <li className="">4. Capture The Flag</li>
+            <li className="">5. Machine Learning</li>
           </ul>
         </motion.div>
       </div>
