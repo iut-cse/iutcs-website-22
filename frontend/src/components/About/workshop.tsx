@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import AnimatedLetters from "../../animation/AnimatedLetters";
-import activities from "../../assets/aboutPage/activities.jpg";
+import workshop from "../../assets/aboutPage/workshop.jpg";
 
 function Workshops() {
   return (
@@ -19,7 +19,7 @@ function Workshops() {
               duration: 0.5,
               delay: 0.2,
             }}
-            src={activities}
+            src={workshop}
             className="w-full h-[250px] md:h-[400px] rounded-3xl"
           />
         </div>
@@ -35,10 +35,7 @@ function Workshops() {
           className="w-full md:w-1/2 md:ml-20 mt-8 md:mt-0 cardBg"
         >
           <ul className="text-left  mtext-xl md:text-2xl px-4 py-8 md:px-12 md:py-16 list-none">
-            <li className="mb-3">1. Regular Sessions</li>
-            <li className="mb-3">2. Workshop & Seminars </li>
-            <li className="mb-3">3. Industry Academia Colaboration</li>
-            <li className="">4. Arranging Events</li>
+            <li className="mb-3">Workshop & Seminars by the top expert of the particular field. Arranging both online and offline</li>
           </ul>
         </motion.div>
       </div>
