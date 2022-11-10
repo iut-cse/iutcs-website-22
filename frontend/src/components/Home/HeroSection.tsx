@@ -9,9 +9,10 @@ import curlyBrace from "../../assets/curlyBrace.png";
 const HeroSection = () => {
   return (
     <>
-      <div className="bg-overlay bg-cover bg-center bg-no-repeat absolute top-0 left-0 right-0 bottom-0 overflow-hidden" />
-      <div className="bg-navyBlue w-screen h-screen flex">
-        <div className="w-full md:w-1/2 flex flex-col justify-center pl-12 md:pl-36">
+      {/* <div className="bg-overlay bg-cover bg-center bg-no-repeat absolute top-0 left-0 right-0 bottom-0 overflow-hidden" /> */}
+      <div className="bg-overlay bg-cover bg-center bg-no-repeat w-screen h-screen flex">
+        <div className="w-full flex flex-col items-center justify-center ">
+        {/* md:w-1/2 flex flex-col justify-center pl-12 md:pl-36 */}
           <h1 className="text-[92px] md:text-[120px] lg:text-[150px] font-semibold">
             <AnimatedLetters text={"IUTCS"} delay={0.15} />
           </h1>
@@ -21,8 +22,10 @@ const HeroSection = () => {
           >
             <AnimatedTextWord text={"IUT Computer Society"} />
           </h3>
+            <a href="#who_are_we" type="button" className="cursor-pointer py-4 px-8 my-16 border shadow rounded-2xl text-lg hover:bg-white hover:text-black transition-all"> Learn More </a>
         </div>
-        <div className="w-1/2 hidden md:flex items-center justify-end relative">
+        <div className="w-full hidden md:grid items-center justify-center relative">
+        {/* w-1/2 hidden md:flex items-center justify-end  */}
           <div className=" mt-6 mr-12 relative">
             <motion.img
               initial={{ opacity: 0, y: 0, scale: 0 }}
@@ -34,7 +37,7 @@ const HeroSection = () => {
               }}
               src={laptopImg}
               alt="laptop"
-              className="relative z-20 w-[300px] h-[268px]  lg:w-[450px] lg:h-[400px]"
+              className="relative z-20 w-[385px] h-[270px]  lg:w-[530px] lg:h-[420px]"
             />
             <motion.img
               initial={{ opacity: 0, y: -30 }}
@@ -46,7 +49,7 @@ const HeroSection = () => {
               }}
               src={neonImg}
               alt="neonBorder"
-              className="absolute z-10 top-6 left-3 lg:top-8 lg:left-4 w-[200px] h-[375px] lg:w-[300px] lg:h-[560px]"
+              className="absolute z-10 top-6 left-3 lg:top-8 lg:left-4 w-[265px] h-[400px] lg:w-[400px] lg:h-[620px]"
             />
             <motion.img
               animate={{ opacity: [0, 1], scale: [0, 1.4, 1] }}
@@ -57,7 +60,7 @@ const HeroSection = () => {
               }}
               src={code}
               alt="neonBorder"
-              className="absolute top-16 left-0 h-14 w-14 iconBg p-2"
+              className="absolute top-16 left-0 h-14 w-14 lg:h-20 lg:w-20 iconBg p-2"
             />
             <motion.img
               animate={{ opacity: [0, 1], scale: [0, 1.2, 1] }}
@@ -68,7 +71,7 @@ const HeroSection = () => {
               }}
               src={curlyBrace}
               alt="neonBorder"
-              className="absolute -top-10 left-64 h-14 w-14 iconBg p-2"
+              className="absolute -top-10 left-64 h-14 w-14 lg:h-20 lg:w-20 iconBg p-2"
             />
           </div>
         </div>

@@ -16,7 +16,7 @@ interface Props {
 const EventInfoComponent = ({ slideNo }: Props) => {
   const isMobile = window.innerWidth <= 768;
   return (
-    <div className="flex flex-col justify-center items-center md:items-start md:pl-8 md:pr-28 h-full">
+    <div className="flex flex-col justify-center items-center md:items-start md:pl-8 md:pr-8 h-full">
       <AnimatePresence exitBeforeEnter>
         <motion.h1
           key={isMobile ? null : slideNo}
@@ -24,7 +24,7 @@ const EventInfoComponent = ({ slideNo }: Props) => {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: -10, opacity: 0 }}
           transition={{ duration: 0.2 }}
-          className="text-3xl mb-3 font-medium"
+          className="text-4xl mb-16 font-medium"
         >
           {eventsContents[slideNo].title}
         </motion.h1>
