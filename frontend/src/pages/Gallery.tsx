@@ -5,9 +5,7 @@ import GalleryView from "../components/Gallery/GalleryView";
 function Gallery() {
   return (
     <div className="overflow-hidden bg-navyBlue">
-      <Navbar />
       <GalleryView />
-      <Footer />
     </div>
   );
 }

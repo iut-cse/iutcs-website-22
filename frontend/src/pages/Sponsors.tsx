@@ -1,11 +1,9 @@
 import AnimatedLetters from "../animation/AnimatedLetters";
 import { sponsors } from "../data/sponsors";
 import { motion } from "framer-motion";
-import Layout from "../components/common/Layout";
 
 const Sponsors = () => {
   return (
-    <Layout>
       <div className="lg:px-40 md:px-20 px-10 my-12">
         <h1 className="text-3xl md:text-4xl text-center mb-12 md:mb-20 font-medium">
           <AnimatedLetters text={"Sponsors"} />
@@ -41,7 +39,6 @@ const Sponsors = () => {
           ))}
         </div>
       </div>
-    </Layout>
   );
 };
 

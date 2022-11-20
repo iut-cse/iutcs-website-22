@@ -1,5 +1,3 @@
-import Footer from "../components/common/Footer";
-import Navbar from "../components/common/Navbar/Navbar";
 import {
   HeroSection,
   IntroSection,
@@ -11,13 +9,11 @@ import {
 const Home = () => {
   return (
     <div className="overflow-hidden">
-      <Navbar />
       <HeroSection />
       <IntroSection />
       <EventsSection />
       <GallerySection />
       <ContactSection />
-      <Footer />
     </div>
   );
 };

@@ -5,11 +5,10 @@ import MissionSection from "../components/About/missionSection";
 import RegularSessions from "../components/About/regularSessions";
 import VideoSection from "../components/About/videoSection";
 import Workshops from '../components/About/workshop';
-import Layout from "../components/common/Layout";
 
 const About = () => {
   return (
-    <Layout>
+    <>
       <VideoSection />
       <MissionSection />
       <ActivitySection />
@@ -17,7 +16,7 @@ const About = () => {
       <Workshops/>
       <IndustryCollaboration/>
       <ArrangeEvents/>
-    </Layout>
+    </>
   );
 };
 

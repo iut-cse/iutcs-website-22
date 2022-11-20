@@ -50,7 +50,7 @@ const IntroSection = () => {
               delay: 0.3,
               duration: 1,
             }}
-            className="object-cover object-center rounded-2xl md:w-[400px] md:h-[400px]"
+            className="object-cover object-center rounded-2xl md:w-[400px] md:h-[400px] brightness-[2.2]"
             alt="hero"
             src={logo}
           />

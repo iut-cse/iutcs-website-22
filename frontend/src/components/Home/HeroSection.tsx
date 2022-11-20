@@ -49,7 +49,7 @@ const HeroSection = () => {
               }}
               src={neonImg}
               alt="neonBorder"
-              className="absolute z-10 top-6 left-3 lg:top-8 lg:left-4 w-[265px] h-[400px] lg:w-[400px] lg:h-[620px]"
+              className="absolute z-10 top-6 left-3 lg:top-8 lg:left-4 w-[265px] h-[400px] lg:w-[400px] lg:h-[620px] float"
             />
             <motion.img
               animate={{ opacity: [0, 1], scale: [0, 1.4, 1] }}
@@ -60,7 +60,7 @@ const HeroSection = () => {
               }}
               src={code}
               alt="neonBorder"
-              className="absolute top-16 left-0 h-14 w-14 lg:h-20 lg:w-20 iconBg p-2"
+              className="absolute top-16 left-0 h-14 w-14 lg:h-20 lg:w-20 iconBg p-2 float-rev"
             />
             <motion.img
               animate={{ opacity: [0, 1], scale: [0, 1.2, 1] }}
@@ -71,7 +71,7 @@ const HeroSection = () => {
               }}
               src={curlyBrace}
               alt="neonBorder"
-              className="absolute -top-10 left-64 h-14 w-14 lg:h-20 lg:w-20 iconBg p-2"
+              className="absolute -top-10 left-64 h-14 w-14 lg:h-20 lg:w-20 iconBg p-2 float-rev"
             />
           </div>
         </div>
