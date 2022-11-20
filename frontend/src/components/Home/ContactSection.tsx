@@ -31,7 +31,7 @@ const ContactSection = () => {
             marginWidth={0}
             scrolling="no"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.348830776193!2d90.37707131478815!3d23.948101984492368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c4abf8334fb1%3A0xbb003124c3dedc91!2z4KaH4Ka44Kay4Ka-4Kau4Ka_4KaVIOCmh-CmieCmqOCmv-CmreCmvuCmsOCnjeCmuOCmv-Cmn-CmvyDgpoXgpqwg4Kaf4KeH4KaV4Kao4KeL4Kay4Kac4Ka_!5e0!3m2!1sbn!2sbd!4v1663441283576!5m2!1sbn!2sbd"
-            style={{ filter: "grayscale(1) contrast(1.2) opacity(0.16)" }}
+            style={{ filter: "grayscale(0.5) contrast(1.2) opacity(0.8)" }}
           />
         </div>
         <motion.div

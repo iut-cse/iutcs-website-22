@@ -63,6 +63,26 @@
 .swiper-button-prev {
   font-weight: bold;
 }
+.float {
+  animation: float 2s linear 2s infinite;
+}
+.float-rev {
+  animation: float 2s linear 2s infinite alternate-reverse;
+}
+@keyframes float {
+  from {
+    translate: 0px 0px;
+  }
+  33% {
+    translate: 0px 10px;
+  }
+  66% {
+    translate: 0px -10px;
+  }
+  100% {
+    translate: 0px 0px;
+  }
+}
 @media screen and (max-width: 640px) {
   .swiper-button-next,
   .swiper-button-prev {
