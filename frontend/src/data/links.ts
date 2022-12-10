@@ -8,4 +8,5 @@ export const links = [
   { title: "Gallery", path: "/gallery" },
   { title: "Executive Committee", path: "/committee" },
   { title: "Our Sponsors", path: "/sponsors" },
+  { title: "CTF", path: "/ctf" },
 ];

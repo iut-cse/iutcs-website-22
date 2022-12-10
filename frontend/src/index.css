@@ -90,3 +90,18 @@
 .inactive:hover {
   color: white;
 }
+
+/* CTF Members Slider */
+.memberSwiper .swiper-wrapper {
+  padding-bottom: 50px;
+}
+
+.memberSwiper .swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 5px !important;
+}
+
+.memberSwiper .swiper-pagination-bullet {
+  background-color: white !important;
+}
