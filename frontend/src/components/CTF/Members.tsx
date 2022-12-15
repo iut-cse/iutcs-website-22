@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 const MemberComponent = ({ member }: any) => {
   return (
-    <div className="relative block overflow-hidden group cardBg">
+    <div className="relative overflow-hidden group cardBg flex flex-col h-full items-stretch">
       <img
         src={member.picture}
         alt={member.name}
@@ -28,6 +28,16 @@ const MemberComponent = ({ member }: any) => {
         <p className="text-sm text-white/80 font-medium text-center">
           {member.description}
         </p>
+        <div className="flex text-[13px] font-medium justify-center flex-wrap my-2">
+          {member.attributes.map((attr: any, i: number) => (
+            <p
+              key={i}
+              className="bg-white/80 text-darkBlue mx-1 my-1 px-3 py-[1px] rounded-xl"
+            >
+              {attr}
+            </p>
+          ))}
+        </div>
       </div>
     </div>
   );
